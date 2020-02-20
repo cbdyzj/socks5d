@@ -1,0 +1,27 @@
+{
+  "name": "socks5d",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"ncc build index.js -o dist",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbdyzj/socks5d.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbdyzj/socks5d/issues"
+  },
+  "homepage": "https://github.com/cbdyzj/socks5d#readme",
+  "devDependencies": {
+    "@zeit/ncc": "^0.21.1"
+  },
+  "dependencies": {
+    "simple-socks": "^1.0.3"
+  }
+}
